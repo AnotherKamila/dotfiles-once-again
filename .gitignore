@@ -1,4 +1,6 @@
-# 
+# ignore all except the whitelist below
 *
 !/.gitignore
+
+!/.gitconfig
 !/.spacemacs

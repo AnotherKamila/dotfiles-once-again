@@ -1,0 +1,31 @@
+[user]
+	name = Kamila Součková
+	email = coding@kamila.is
+[color]
+	ui = auto
+[alias]
+	ci = commit
+	st = status
+	p  = add --patch
+	br = branch
+	co = checkout
+	lg = log --graph --color --decorate --pretty=format:'%C(cyan)%h%C(reset) -%C(red)%d%C(reset) %s %C(green)(%cd) %C(bold blue)<%an>%C(reset)' --abbrev-commit --date=relative
+	la = log --all --graph --color --pretty=format:'%C(yellow)%h%C(reset) -%C(red)%d%C(reset) %s %C(green)(%cd) %C(bold blue)<%an>%C(reset)' --abbrev-commit --date=relative
+	undo-commit = reset HEAD~
+	ls = ls-tree -r --name-status HEAD
+	branch-name = "!git rev-parse --abbrev-ref HEAD"
+	publish = "!git push public $(git branch-name)"
+[core]
+	editor = vim
+	pager = less
+[diff]
+	tool = meld
+	submodule = log
+[push]
+	default = upstream
+[pull]
+	ff = only
+
+# override this by a host-specific file if needed
+[include]
+	path = ~/.gitconfig.local
