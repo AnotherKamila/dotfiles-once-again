@@ -4,3 +4,11 @@
 
 !/.gitconfig
 !/.spacemacs
+!/.profile
+
+# .gitignore skips directories, so the directory tree must be pointed out to it
+!/.config
+!/.config/fish
+!/.config/fish/**
+/.config/fish/local.fish
+/.config/fish/fish_variables
