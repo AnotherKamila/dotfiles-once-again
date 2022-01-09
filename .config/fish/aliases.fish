@@ -5,6 +5,7 @@ else
 end
 
 alias fe "$EDITOR"
+alias ce 'emacsclient -n'
 alias l  'ls'
 alias o  'xdg-open'
 alias s  'mosh'
