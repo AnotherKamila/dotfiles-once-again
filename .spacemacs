@@ -83,6 +83,8 @@ This function should only modify configuration layer settings."
                      spell-checking-enable-by-default nil)
      sql
      syntax-checking
+     (terraform :variables
+                terraform-auto-format-on-save t)
      treemacs
      (version-control :variables
                       version-control-diff-tool 'git-gutter+)
