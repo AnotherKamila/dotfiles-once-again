@@ -12,3 +12,7 @@
 !/.config/fish/**
 /.config/fish/local.fish
 /.config/fish/fish_variables
+
+
+!/.config/kitty
+!/.config/kitty/**

@@ -34,3 +34,8 @@ alias serveme 'python3 -m http.server'
 
 alias gpg 'gpg2'  # who wants gpg1
 alias hledger 'hledger -s'
+
+alias tf 'terraform'
+alias tfrefresh 'terraform apply -parallelism=100 -refresh-only'
+
+alias docker-compose 'env TMPDIR=/var/tmp docker-compose'
