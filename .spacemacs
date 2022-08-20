@@ -101,7 +101,7 @@ This function should only modify configuration layer settings."
      editorconfig
      ;;atomic-chrome
      ;;websocket
-     (verilog-mode :location (recipe :fetcher github :repo "veripool/verilog-mode" :min-version "1"))
+     ;;(verilog-mode :location (recipe :fetcher github :repo "veripool/verilog-mode" :min-version "1"))
      )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -518,7 +518,7 @@ It should only modify the values of Spacemacs settings."
    ;; `trailing' to delete only the whitespace at end of lines, `changed' to
    ;; delete only whitespace for changed lines or `nil' to disable cleanup.
    ;; (default nil)
-   dotspacemacs-whitespace-cleanup nil
+   dotspacemacs-whitespace-cleanup 'all
 
    ;; If non-nil activate `clean-aindent-mode' which tries to correct
    ;; virtual indentation of simple modes. This can interfere with mode specific
