@@ -5,6 +5,7 @@
 !/.gitconfig
 !/.spacemacs
 !/.profile
+!/.vimrc
 
 # .gitignore skips directories, so the directory tree must be pointed out to it
 !/.config
