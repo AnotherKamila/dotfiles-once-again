@@ -1,6 +1,7 @@
 # ignore all except the whitelist below
 *
 !/.gitignore
+!/README.md
 
 !/.gitconfig
 !/.spacemacs
@@ -12,3 +13,8 @@
 !/.config/fish/**
 /.config/fish/local.fish
 /.config/fish/fish_variables
+
+!.gnupg
+.gnupg/*
+!.gnupg/gpg.conf
+!.gnupg/gpg-agent.conf
