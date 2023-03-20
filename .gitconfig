@@ -31,3 +31,6 @@
 	path = ~/.gitconfig.local
 [init]
 	defaultBranch = main
+[gitreview]
+	remote = origin
+	username = kamila
