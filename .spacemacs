@@ -32,7 +32,7 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(
+   '(ruby
      ansible
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
@@ -679,7 +679,7 @@ This function is called at the very end of Spacemacs initialization."
      (:flags . 6)
      (:mailing-list . 10)
      (:from-or-to . 25)
-     (:subject)))
+     (:subject)) t)
  '(org-agenda-files nil)
  '(org-agenda-sorting-strategy
    '((agenda habit-down time-up todo-state-up priority-down category-keep)
