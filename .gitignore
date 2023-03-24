@@ -1,5 +1,6 @@
 # ignore all except the whitelist below
 *
+
 !/.gitignore
 !/README.md
 
@@ -8,18 +9,25 @@
 !/.profile
 !/.vimrc
 
-# .gitignore skips directories, so the directory tree must be pointed out to it
+# note: .gitignore skips directories, so the directory tree must be pointed out to it
+
+!.ssh/
+.ssh/*
+!.ssh/config
+!.ssh/config.d/*
+.ssh/config.d/local
+
+!.gnupg
+.gnupg/*
+!.gnupg/gpg.conf
+!.gnupg/gpg-agent.conf
+
 !/.config
 
 !/.config/fish
 !/.config/fish/**
 /.config/fish/local.fish
 /.config/fish/fish_variables
-
-!.gnupg
-.gnupg/*
-!.gnupg/gpg.conf
-!.gnupg/gpg-agent.conf
 
 !/.config/kitty
 !/.config/kitty/**
