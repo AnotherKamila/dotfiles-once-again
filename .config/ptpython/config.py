@@ -14,6 +14,10 @@ def configure(repl):
     Configuration method. This is called during the start-up of ptpython.
     :param repl: `PythonRepl` instance.
     """
+    # Vi mode.
+    repl.vi_mode = True
+    return
+
     # Show function signature (bool).
     repl.show_signature = True
 
@@ -60,9 +64,6 @@ def configure(repl):
     repl.enable_fuzzy_completion = True
     repl.enable_dictionary_completion = False
 
-    # Vi mode.
-    repl.vi_mode = True
-
     # Paste mode. (When True, don't insert whitespace after new line.)
     repl.paste_mode = False
 
@@ -104,9 +105,9 @@ def configure(repl):
     # color schemes. See:
     # https://pygments.org/docs/styles/
     # https://pygments.org/demo/
-    repl.use_code_colorscheme("default")
+    # repl.use_code_colorscheme("default")
     # A colorscheme that looks good on dark backgrounds is 'native':
-    # repl.use_code_colorscheme("native")
+    repl.use_code_colorscheme("native")
 
     # Set color depth (keep in mind that not all terminals support true color).
 

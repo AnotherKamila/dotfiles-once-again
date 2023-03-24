@@ -74,8 +74,8 @@ This function should only modify configuration layer settings."
      org
      (python :variables
              python-fill-column 99
-             python-formatter 'black
-             python-format-on-save t
+             ;; python-formatter 'black
+             ;; python-format-on-save t
              python-pipenv-activate t
              python-sort-imports-on-save t)
      ;; (shell :variables
