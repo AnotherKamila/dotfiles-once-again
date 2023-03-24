@@ -1,0 +1,12 @@
+function fish_title
+    # emacs is basically the only term that can't handle it.
+    if set -q INSIDE_EMACS
+        return
+    end
+
+    if [ (status current-command) != 'fish' ]
+        echo -n (string sub -l 20 $history[1]) '| '
+    end
+
+    __fish_pwd
+end

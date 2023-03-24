@@ -29,3 +29,8 @@
 # override this by a host-specific file if needed
 [include]
 	path = ~/.gitconfig.local
+[init]
+	defaultBranch = main
+[gitreview]
+	remote = origin
+	username = kamila

@@ -6,9 +6,11 @@
 !/.gitconfig
 !/.spacemacs
 !/.profile
+!/.vimrc
 
 # .gitignore skips directories, so the directory tree must be pointed out to it
 !/.config
+
 !/.config/fish
 !/.config/fish/**
 /.config/fish/local.fish
@@ -18,3 +20,11 @@
 .gnupg/*
 !.gnupg/gpg.conf
 !.gnupg/gpg-agent.conf
+
+!/.config/kitty
+!/.config/kitty/**
+
+!/.config/pythonrc.py
+
+!/.config/ptpython
+!/.config/ptpython/config.py

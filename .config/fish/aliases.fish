@@ -5,9 +5,10 @@ else
 end
 
 alias fe "$EDITOR"
+alias ce 'emacsclient -n'
 alias l  'ls'
 alias o  'xdg-open'
-alias s  'mosh'
+#alias s  'mosh'
 alias tt 'tree -F'
 alias ff 'find . -name '
 alias f  'fuck'
@@ -27,9 +28,14 @@ alias py2 'python2'
 alias psh 'pipenv shell --fancy'
 
 alias n 'cd ~/n'
-alias shortps "alias fish_prompt \"echo '> '\""
+alias shortps "alias fish_prompt \"echo '><> '\""
 
 alias serveme 'python3 -m http.server'
 
 alias gpg 'gpg2'  # who wants gpg1
 alias hledger 'hledger -s'
+
+alias tf 'terraform'
+alias tfrefresh 'terraform apply -parallelism=100 -refresh-only'
+
+alias docker-compose 'env TMPDIR=/var/tmp docker-compose'
