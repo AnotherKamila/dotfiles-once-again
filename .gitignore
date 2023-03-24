@@ -11,16 +11,16 @@
 
 # note: .gitignore skips directories, so the directory tree must be pointed out to it
 
-!.ssh/
-.ssh/*
-!.ssh/config
-!.ssh/config.d/*
-.ssh/config.d/local
+!/.ssh/
+/.ssh/*
+!/.ssh/config
+!/.ssh/config.d/*
+/.ssh/config.d/local
 
-!.gnupg
-.gnupg/*
-!.gnupg/gpg.conf
-!.gnupg/gpg-agent.conf
+!/.gnupg
+/.gnupg/*
+!/.gnupg/gpg.conf
+!/.gnupg/gpg-agent.conf
 
 !/.config
 
@@ -36,3 +36,8 @@
 
 !/.config/ptpython
 !/.config/ptpython/config.py
+
+!/.config/i3
+!/.config/i3/**
+!/.config/i3status
+!/.config/i3status/**
