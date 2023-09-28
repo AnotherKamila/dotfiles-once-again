@@ -1,10 +1,10 @@
 :set tabstop=4 softtabstop=4
 :set shiftwidth=0
-:set expandtab	
+:set expandtab
 :set hidden
 :set autoindent
 :set smartindent
-
+:set tw=72
 
 " Cursor in terminal
 " https://vim.fandom.com/wiki/Configuring_the_cursor

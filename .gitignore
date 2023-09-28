@@ -9,6 +9,8 @@
 !/.profile
 !/.vimrc
 
+!/.Xcompose
+
 # note: .gitignore skips directories, so the directory tree must be pointed out to it
 
 !/.ssh/

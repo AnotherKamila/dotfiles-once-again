@@ -39,3 +39,4 @@ alias tf 'terraform'
 alias tfrefresh 'terraform apply -parallelism=100 -refresh-only'
 
 alias docker-compose 'env TMPDIR=/var/tmp docker-compose'
+alias k 'kubectl'
